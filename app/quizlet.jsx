@@ -13,12 +13,11 @@ export default function Quizlet() {
             style={{ 
                 flex: 1,
                 justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: "#FFFFFFF"
+                alignItems: 'center'
             }}
             source={backgroundImage} 
             resizeMode="cover" 
-            className="justify-center items-center bg-cover bg-red-100 w-full h-full"
+            className="justify-center items-center"
         >
             <SafeAreaView className="justify-center items-center gap-y-5 w-full h-full px-10 bg-white">
                 <Text className="text-3xl JakartaBold text-yellow-700 text-center">Rich Spirit</Text>
