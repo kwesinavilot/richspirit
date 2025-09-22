@@ -69,7 +69,9 @@ export default function RootLayout() {
 
     if (loaded) {
       if (!takenQuiz) {
-        router.replace('/quizlet');
+        router.replace('/(quiz)/welcome');
+      } else {
+        router.replace('/(actualize)');
       }
 
       // Hide splash screen after fonts are loaded and routing is complete
@@ -98,8 +100,8 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <GestureHandlerRootView>
         <Stack>
-          <Stack.Screen name='(root)' options={{ headerShown: false }} />
-          <Stack.Screen name='quizlet' options={{ headerShown: false }} />
+          <Stack.Screen name='(quiz)' options={{ headerShown: false }} />
+          <Stack.Screen name='(actualize)' options={{ headerShown: false }} />
           {/* <Stack.Screen name="+not-found" /> */}
         </Stack>
       </GestureHandlerRootView>

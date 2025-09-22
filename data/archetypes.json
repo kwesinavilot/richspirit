@@ -1,0 +1,121 @@
+{
+  "archetypes": [
+    {
+      "name": "Lion",
+      "traits": "Ambitious, leader-type, bold, makes big moves",
+      "profile": {
+        "risk": 3,
+        "saving": 1,
+        "futureFocus": 3,
+        "impulsivity": 1,
+        "planning": 2,
+        "status": 3,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Owl",
+      "traits": "Wise, analytical, careful, long-term planner",
+      "profile": {
+        "risk": 0,
+        "saving": 3,
+        "futureFocus": 3,
+        "impulsivity": 0,
+        "planning": 3,
+        "status": 1,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Squirrel",
+      "traits": "Frugal, consistent, deferred gratification, cautious",
+      "profile": {
+        "risk": 0,
+        "saving": 3,
+        "futureFocus": 2,
+        "impulsivity": 0,
+        "planning": 2,
+        "status": 1,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Fox",
+      "traits": "Adaptable, opportunistic, strategic, agile",
+      "profile": {
+        "risk": 2,
+        "saving": 1,
+        "futureFocus": 2,
+        "impulsivity": 1,
+        "planning": 2,
+        "status": 2,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Peacock",
+      "traits": "Showy, social, aesthetics & status oriented, expressive",
+      "profile": {
+        "risk": 1,
+        "saving": 0,
+        "futureFocus": 1,
+        "impulsivity": 2,
+        "planning": 1,
+        "status": 3,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Elephant",
+      "traits": "Steady, wise, values legacy & discipline, long term focus",
+      "profile": {
+        "risk": 0,
+        "saving": 3,
+        "futureFocus": 3,
+        "impulsivity": 0,
+        "planning": 3,
+        "status": 1,
+        "generosity": 2
+      }
+    },
+    {
+      "name": "Bear",
+      "traits": "Grounded, protective, strong, reliable",
+      "profile": {
+        "risk": 1,
+        "saving": 2,
+        "futureFocus": 2,
+        "impulsivity": 1,
+        "planning": 2,
+        "status": 1,
+        "generosity": 2
+      }
+    },
+    {
+      "name": "Eagle",
+      "traits": "Visionary, bold, leadership, sees big picture, strategic",
+      "profile": {
+        "risk": 3,
+        "saving": 1,
+        "futureFocus": 3,
+        "impulsivity": 1,
+        "planning": 2,
+        "status": 3,
+        "generosity": 1
+      }
+    },
+    {
+      "name": "Antelope",
+      "traits": "Agile, alert, graceful, quick to adapt, perceptive",
+      "profile": {
+        "risk": 2,
+        "saving": 1,
+        "futureFocus": 2,
+        "impulsivity": 2,
+        "planning": 2,
+        "status": 1,
+        "generosity": 1
+      }
+    }
+  ]
+}

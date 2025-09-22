@@ -1,0 +1,513 @@
+{
+  "dimensions": [
+    "risk",
+    "saving",
+    "futureFocus",
+    "impulsivity",
+    "planning",
+    "status",
+    "generosity"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "If you find a great deal but it costs more than you planned, do you buy it anyway?",
+      "dimension": ["status", "impulsivity"],
+      "options": [
+        "Yes, I go for it",
+        "Maybe if it looks worth it",
+        "No, I stick to my budget"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Do you try to save at least some money each time you get paid, even if it’s small?",
+      "dimension": ["saving"],
+      "options": [
+        "Always",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Do you often think about what you’ll be doing financially in 5 or 10 years?",
+      "dimension": ["futureFocus", "planning"],
+      "options": [
+        "Yes, I have long-term plans",
+        "Occasionally",
+        "Hardly ever"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "When you’re upset, do you shop, eat out, or spend to feel better?",
+      "dimension": ["impulsivity", "status"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Do you follow a budget (even roughly)?",
+      "dimension": ["planning", "saving"],
+      "options": [
+        "Yes, strictly",
+        "Somewhat loosely",
+        "Not at all"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How comfortable are you borrowing money (credit card, loan) if it helps you now?",
+      "dimension": ["risk", "status"],
+      "options": [
+        "Very comfortable",
+        "Only if needed",
+        "Avoid it"
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Does owning trending or luxury items matter a lot to you?",
+      "dimension": ["status"],
+      "options": [
+        "Yes, it matters a lot",
+        "Somewhat",
+        "Not really"
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Would you give money or help someone in need, even if it might make your own financial progress slower?",
+      "dimension": ["generosity"],
+      "options": [
+        "Yes, I would",
+        "If I can afford it",
+        "Probably not"
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Do you postpone fun purchases to save for something bigger later?",
+      "dimension": ["saving", "futureFocus"],
+      "options": [
+        "Yes always",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Do you get anxious when you don’t have a financial buffer/savings?",
+      "dimension": ["planning", "futureFocus"],
+      "options": [
+        "Yes, very anxious",
+        "A little",
+        "Not really"
+      ]
+    },
+    {
+      "id": 11,
+      "text": "How often do you check your bank balance or spending in a month?",
+      "dimension": ["planning"],
+      "options": [
+        "Weekly",
+        "Once or twice",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 12,
+      "text": "If an investment is risky but has a big payoff, are you more likely to try it or avoid it?",
+      "dimension": ["risk", "futureFocus"],
+      "options": [
+        "Try it",
+        "Maybe small amount",
+        "Avoid it"
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Do you prefer experiences (travel, concerts) or material things (gadgets, clothes) when spending?",
+      "dimension": ["lifestyle", "status"],
+      "options": [
+        "Experiences",
+        "Balanced",
+        "Things"
+      ]
+    },
+    {
+      "id": 14,
+      "text": "When you receive extra money (birthday, gift, bonus), do you save it, split it, or spend it?",
+      "dimension": ["saving"],
+      "options": [
+        "Save most",
+        "Split",
+        "Spend most"
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Do you set financial goals (e.g. saving for a car, startup, etc.)?",
+      "dimension": ["futureFocus", "planning"],
+      "options": [
+        "Yes, clearly defined",
+        "Somewhat",
+        "No"
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Do you often buy things on impulse (without planning)?",
+      "dimension": ["impulsivity"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": 17,
+      "text": "If you borrow, do you try to pay off early or just minimum?",
+      "dimension": ["planning", "risk"],
+      "options": [
+        "Pay early",
+        "Minimum payments",
+        "Avoid borrowing"
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Is status or appearance (how you look, what people think) important when you spend money?",
+      "dimension": ["status"],
+      "options": [
+        "Very important",
+        "Somewhat",
+        "Not at all"
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Do you believe your financial success is more about luck or about habits / discipline?",
+      "dimension": ["futureFocus", "planning"],
+      "options": [
+        "Habits / discipline",
+        "Mix of both",
+        "Luck"
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Do you avoid thinking about financial issues until they become urgent?",
+      "dimension": ["impulsivity", "planning"],
+      "options": [
+        "Yes, I do",
+        "Sometimes",
+        "No, I try to stay proactive"
+      ]
+    },
+    {
+      "id": 21,
+      "text": "How often do you compare your financial situation to that of friends or peers?",
+      "dimension": ["status", "impulsivity"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Would you rather have a stable job and less stress, or riskier work with big upside?",
+      "dimension": ["risk", "futureFocus"],
+      "options": [
+        "Riskier with big upside",
+        "Balanced risk",
+        "Stable and safe"
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Do you invest (or want to invest) in skills or education now for future returns?",
+      "dimension": ["futureFocus", "planning"],
+      "options": [
+        "Yes definitely",
+        "Maybe",
+        "Not really"
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Do you enjoy researching things before buying (read reviews, compare prices)?",
+      "dimension": ["planning"],
+      "options": [
+        "Always",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Do you feel satisfied when you save money rather than spend it?",
+      "dimension": ["saving"],
+      "options": [
+        "Yes",
+        "Sometimes",
+        "Not really"
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Are you okay with a modest lifestyle if it means financial security?",
+      "dimension": ["values", "saving"],
+      "options": [
+        "Yes",
+        "Maybe",
+        "No"
+      ]
+    },
+    {
+      "id": 27,
+      "text": "When planning a trip or vacation, do you budget ahead or just wing it?",
+      "dimension": ["planning"],
+      "options": [
+        "Budget ahead",
+        "Some planning",
+        "Wing it"
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Do you see debt as a tool or as a trap?",
+      "dimension": ["debt", "risk"],
+      "options": [
+        "Tool when used wisely",
+        "Sometimes trap",
+        "Mostly trap"
+      ]
+    },
+    {
+      "id": 29,
+      "text": "How often do you spend on things for status or to impress others?",
+      "dimension": ["status", "impulsivity"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Do you believe giving back (charity, helping friends/family) is as important as building wealth?",
+      "dimension": ["generosity", "values"],
+      "options": [
+        "Yes",
+        "Sometimes",
+        "No"
+      ]
+    },
+    {
+      "id": 31,
+      "text": "If a risky opportunity comes with possible big reward, do you take it now or wait until you’re more prepared?",
+      "dimension": ["risk", "futureFocus"],
+      "options": [
+        "Take it now",
+        "Wait",
+        "Avoid it"
+      ]
+    },
+    {
+      "id": 32,
+      "text": "Do you cut back on small luxuries (coffee, eating out) to reach bigger financial goals?",
+      "dimension": ["saving", "planning"],
+      "options": [
+        "Yes often",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 33,
+      "text": "Do you plan for emergencies (saving for unexpected bills)?",
+      "dimension": ["planning", "futureFocus"],
+      "options": [
+        "Always",
+        "Sometimes",
+        "No"
+      ]
+    },
+    {
+      "id": 34,
+      "text": "Is your spending controlled by emotions sometimes (boredom, peer pressure, social media)?",
+      "dimension": ["impulsivity"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 35,
+      "text": "Do you feel proud of your financial achievements, even if small?",
+      "dimension": ["values", "status"],
+      "options": [
+        "Always",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 36,
+      "text": "If you had savings, would you rather invest, lend, or leave it idle?",
+      "dimension": ["risk", "futureFocus", "saving"],
+      "options": [
+        "Invest / lend",
+        "Idle with low risk",
+        "Keep cash"
+      ]
+    },
+    {
+      "id": 37,
+      "text": "Do you think about what legacy or impact you want to leave behind (family, society)?",
+      "dimension": ["futureFocus", "generosity"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": 38,
+      "text": "How often do you delay purchase decisions to think about whether you really need something?",
+      "dimension": ["planning", "saving"],
+      "options": [
+        "Always",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 39,
+      "text": "Do you believe financial education (books, courses) is important?",
+      "dimension": ["planning"],
+      "options": [
+        "Yes",
+        "Sometimes",
+        "No"
+      ]
+    },
+    {
+      "id": 40,
+      "text": "Do you share financial tips or learnings with your friends?",
+      "dimension": ["generosity", "values"],
+      "options": [
+        "Often",
+        "Sometimes",
+        "Never"
+      ]
+    },
+    {
+      "id": 41,
+      "text": "When you see others with lots of money, do you feel inspired or envious or indifferent?",
+      "dimension": ["status", "emotional"],
+      "options": [
+        "Inspired",
+        "Sometimes envious",
+        "Indifferent"
+      ]
+    },
+    {
+      "id": 42,
+      "text": "Do you check interest rates, fees, etc., before committing to credit or purchases?",
+      "dimension": ["planning", "risk"],
+      "options": [
+        "Always",
+        "Often",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 43,
+      "text": "Would you rather spend extra for quality vs bargain with risk of lower quality?",
+      "dimension": ["status", "risk", "saving"],
+      "options": [
+        "Extra for quality",
+        "Balanced",
+        "Bargain"
+      ]
+    },
+    {
+      "id": 44,
+      "text": "Do you keep track of your subscriptions or recurring payments?",
+      "dimension": ["planning", "discipline"],
+      "options": [
+        "Yes",
+        "Sometimes",
+        "Not really"
+      ]
+    },
+    {
+      "id": 45,
+      "text": "When money is saved, do you prefer to watch it grow (invest) or just keep it safe (bank)?",
+      "dimension": ["risk", "saving", "futureFocus"],
+      "options": [
+        "Invest it",
+        "Keep safe",
+        "Mix"
+      ]
+    },
+    {
+      "id": 46,
+      "text": "Are you okay with taking small financial risks in daily decisions (starting a side gig, investing)?",
+      "dimension": ["risk"],
+      "options": [
+        "Yes often",
+        "Sometimes",
+        "Rarely"
+      ]
+    },
+    {
+      "id": 47,
+      "text": "Do you believe that generosity/giving is part of financial success?",
+      "dimension": ["generosity", "values"],
+      "options": [
+        "Definitely",
+        "Sometimes",
+        "No"
+      ]
+    },
+    {
+      "id": 48,
+      "text": "If you could, would you pay someone to help you manage finances or prefer doing it yourself?",
+      "dimension": ["planning", "status"],
+      "options": [
+        "Hire help",
+        "Do myself with effort",
+        "Do it roughly myself"
+      ]
+    },
+    {
+      "id": 49,
+      "text": "Do you prefer to see your money in visual tools (graphs, charts) or simply 'know roughly' how things are?",
+      "dimension": ["planning", "saving"],
+      "options": [
+        "Visual tools",
+        "Rough idea",
+        "Nothing"
+      ]
+    },
+    {
+      "id": 50,
+      "text": "At the end of the month, do you feel relief if you saved, worry if you didn’t, or neither?",
+      "dimension": ["saving", "planning", "impulsivity"],
+      "options": [
+        "Relief",
+        "Worry",
+        "Neither"
+      ]
+    }
+  ]
+}
