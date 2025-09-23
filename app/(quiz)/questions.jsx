@@ -35,9 +35,11 @@ export default function Questions() {
     if (questions.length === 0) {
         return (
             <ImageBackground source={backgroundImage} resizeMode="cover" className="flex-1">
-                <SafeAreaView className="flex-1 justify-center items-center">
-                    <Text className="text-white text-lg JakartaMedium">Loading questions...</Text>
-                </SafeAreaView>
+                <View className="flex-1 bg-black/40">
+                    <SafeAreaView className="flex-1 justify-center items-center">
+                        <Text className="text-white text-lg JakartaMedium">Loading questions...</Text>
+                    </SafeAreaView>
+                </View>
             </ImageBackground>
         );
     }
@@ -48,39 +50,41 @@ export default function Questions() {
             resizeMode="cover" 
             className="flex-1"
         >
-            <SafeAreaView className="flex-1 px-6">
-                {/* Progress indicator */}
-                <View className="w-full h-2 bg-white/20 rounded-full mt-4 mb-8">
-                    <View 
-                        className="h-full bg-yellow-700 rounded-full transition-all duration-300"
-                        style={{ width: `${progress}%` }}
-                    />
-                </View>
-
-                <View className="flex-1 justify-center">
-                    <Text className="text-2xl JakartaBold text-white text-center mb-8">
-                        {questions[currentQuestion].text}
-                    </Text>
-
-                    <View className="space-y-4">
-                        {questions[currentQuestion].options.map((option, index) => (
-                            <TouchableOpacity
-                                key={index}
-                                className="bg-white/20 p-4 rounded-2xl"
-                                onPress={() => handleAnswer(index)}
-                            >
-                                <Text className="text-white text-lg JakartaMedium text-center">
-                                    {option}
-                                </Text>
-                            </TouchableOpacity>
-                        ))}
+            <View className="flex-1 bg-black/40">
+                <SafeAreaView className="flex-1 px-6">
+                    {/* Progress indicator */}
+                    <View className="w-full h-2 bg-white/20 rounded-full mt-4 mb-8">
+                        <View 
+                            className="h-full bg-yellow-700 rounded-full transition-all duration-300"
+                            style={{ width: `${progress}%` }}
+                        />
                     </View>
-                </View>
 
-                <Text className="text-white/70 text-center mb-4 JakartaRegular">
-                    Question {currentQuestion + 1} of {questions.length}
-                </Text>
-            </SafeAreaView>
+                    <View className="flex-1 justify-center">
+                        <Text className="text-2xl JakartaBold text-white text-center mb-8">
+                            {questions[currentQuestion].text}
+                        </Text>
+
+                        <View className="space-y-4">
+                            {questions[currentQuestion].options.map((option, index) => (
+                                <TouchableOpacity
+                                    key={index}
+                                    className="bg-white/20 p-4 rounded-2xl"
+                                    onPress={() => handleAnswer(index)}
+                                >
+                                    <Text className="text-white text-lg JakartaMedium text-center">
+                                        {option}
+                                    </Text>
+                                </TouchableOpacity>
+                            ))}
+                        </View>
+                    </View>
+
+                    <Text className="text-white/70 text-center mb-4 JakartaRegular">
+                        Question {currentQuestion + 1} of {questions.length}
+                    </Text>
+                </SafeAreaView>
+            </View>
         </ImageBackground>
     );
 }

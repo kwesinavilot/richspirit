@@ -19,39 +19,41 @@ export default function Identity() {
             resizeMode="cover" 
             className="flex-1"
         >
-            <SafeAreaView className="flex-1 justify-center items-center px-10">
-                <Text className="text-3xl JakartaBold text-white text-center mb-8">
-                    Let's get personal
-                </Text>
-                
-                <View className="w-full mb-8">
-                    <Text className="text-white text-lg JakartaMedium mb-4 text-center">
-                        Enter your X (Twitter) handle
+            <View className="flex-1 bg-black/40">
+                <SafeAreaView className="flex-1 justify-center items-center px-10">
+                    <Text className="text-3xl font-bold JakartaBold text-white text-center mb-8">
+                        Let's get personal
                     </Text>
                     
-                    <View className="bg-white/20 rounded-full px-6 py-4 flex-row items-center">
-                        <Text className="text-white text-lg JakartaMedium mr-2">@</Text>
-                        <TextInput
-                            className="flex-1 text-white text-lg JakartaMedium"
-                            placeholder="yourhandle"
-                            placeholderTextColor="rgba(255,255,255,0.7)"
-                            value={handle}
-                            onChangeText={setHandle}
-                            autoCapitalize="none"
-                        />
+                    <View className="w-full mb-8">
+                        <Text className="text-white text-lg JakartaMedium mb-4 text-center">
+                            Enter your X (Twitter) handle
+                        </Text>
+                        
+                        <View className="bg-white/20 rounded-full px-6 py-1 flex-row items-center">
+                            <Text className="text-white text-lg JakartaMedium mr-2">@</Text>
+                            <TextInput
+                                className="flex-1 text-white text-lg font-medium JakartaMedium"
+                                placeholder="yourhandle"
+                                placeholderTextColor="rgba(255,255,255,0.7)"
+                                value={handle}
+                                onChangeText={setHandle}
+                                autoCapitalize="none"
+                            />
+                        </View>
                     </View>
-                </View>
 
-                <TouchableOpacity 
-                    className={`px-8 py-4 rounded-full ${handle.trim() ? 'bg-yellow-700' : 'bg-gray-500'}`}
-                    onPress={handleNext}
-                    disabled={!handle.trim()}
-                >
-                    <Text className="text-white text-lg JakartaMedium">
-                        Next →
-                    </Text>
-                </TouchableOpacity>
-            </SafeAreaView>
+                    <TouchableOpacity 
+                        className={`px-8 py-4 rounded-full ${handle.trim() ? 'bg-[#fd7e14]' : 'bg-gray-500'}`}
+                        onPress={handleNext}
+                        disabled={!handle.trim()}
+                    >
+                        <Text className="text-white text-lg JakartaMedium">
+                            Next →
+                        </Text>
+                    </TouchableOpacity>
+                </SafeAreaView>
+            </View>
         </ImageBackground>
     );
 }

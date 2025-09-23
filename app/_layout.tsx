@@ -65,7 +65,7 @@ export default function RootLayout() {
    * This function is called when the app is first loaded.
    */
   const checkAndRoute = async () => {
-    const takenQuiz = await AsyncStorage.getItem('@richspirit_taken_quiz');
+    const takenQuiz = false; //await AsyncStorage.getItem('@richspirit_taken_quiz');
 
     if (loaded) {
       if (!takenQuiz) {
