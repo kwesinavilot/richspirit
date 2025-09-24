@@ -20,18 +20,18 @@ export default function Identity() {
             className="flex-1"
         >
             <View className="flex-1 bg-black/40">
-                <SafeAreaView className="flex-1 justify-center items-center px-10">
-                    <Text className="text-3xl font-bold JakartaBold text-white text-center mb-8">
+                <SafeAreaView className="flex-1 justify-center items-center px-10 my-auto">
+                    {/* <Text className="text-3xl font-bold JakartaBold text-white text-center mb-8">
                         Let's get personal
-                    </Text>
+                    </Text> */}
                     
-                    <View className="w-full mb-8">
-                        <Text className="text-white text-lg JakartaMedium mb-4 text-center">
+                    <View className="w-full mb-5 mt-32">
+                        <Text className="text-white text-lg font-medium JakartaMedium mb-4 text-center">
                             Enter your X (Twitter) handle
                         </Text>
                         
-                        <View className="bg-white/20 rounded-full px-6 py-1 flex-row items-center">
-                            <Text className="text-white text-lg JakartaMedium mr-2">@</Text>
+                        <View className="bg-white/25 rounded-full px-6 py-1 flex-row items-center">
+                            <Text className="text-white text-lg font-medium JakartaMedium mr-2">@</Text>
                             <TextInput
                                 className="flex-1 text-white text-lg font-medium JakartaMedium"
                                 placeholder="yourhandle"
@@ -48,7 +48,7 @@ export default function Identity() {
                         onPress={handleNext}
                         disabled={!handle.trim()}
                     >
-                        <Text className="text-white text-lg JakartaMedium">
+                        <Text className="text-white font-medium text-lg JakartaMedium">
                             Next →
                         </Text>
                     </TouchableOpacity>

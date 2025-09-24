@@ -55,7 +55,7 @@ export default function Questions() {
                     {/* Progress indicator */}
                     <View className="w-full h-2 bg-white/20 rounded-full mt-4 mb-8">
                         <View 
-                            className="h-full bg-yellow-700 rounded-full transition-all duration-300"
+                            className="h-full bg-[#fd7e14] rounded-full transition-all duration-300"
                             style={{ width: `${progress}%` }}
                         />
                     </View>
@@ -65,14 +65,14 @@ export default function Questions() {
                             {questions[currentQuestion].text}
                         </Text>
 
-                        <View className="space-y-4">
+                        <View className="space-y-5">
                             {questions[currentQuestion].options.map((option, index) => (
                                 <TouchableOpacity
                                     key={index}
-                                    className="bg-white/20 p-4 rounded-2xl"
+                                    className="bg-white/25 p-4 mb-4 rounded-2xl"
                                     onPress={() => handleAnswer(index)}
                                 >
-                                    <Text className="text-white text-lg JakartaMedium text-center">
+                                    <Text className="text-white text-lg font-medium JakartaMedium text-center">
                                         {option}
                                     </Text>
                                 </TouchableOpacity>
@@ -80,7 +80,7 @@ export default function Questions() {
                         </View>
                     </View>
 
-                    <Text className="text-white/70 text-center mb-4 JakartaRegular">
+                    <Text className="text-white/80 text-center mb-4 JakartaRegular">
                         Question {currentQuestion + 1} of {questions.length}
                     </Text>
                 </SafeAreaView>

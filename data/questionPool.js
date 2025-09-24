@@ -20,15 +20,15 @@ const spiritAnimals = archetypes.map(archetype => {
   };
 
   const messageMap = {
-    'Lion': "You're a natural leader who takes bold risks for big rewards. Your confidence and ambition drive you to pursue wealth aggressively. Your path to $1M lies in high-stakes ventures and leadership roles.",
-    'Owl': "Your wisdom lies in careful analysis and long-term planning. You build wealth through patience, knowledge, and strategic thinking. Your $1M path is steady, secure, and sustainable.",
+    'Lion': "You're a natural leader who takes bold risks for big rewards. Your confidence and ambition drive you to pursue wealth aggressively. Your path to financial freedom lies in high-stakes ventures and leadership roles.",
+    'Owl': "Your wisdom lies in careful analysis and long-term planning. You build wealth through patience, knowledge, and strategic thinking. Your path to financial freedom is steady, secure, and sustainable.",
     'Squirrel': "You excel at consistent saving and delayed gratification. Your frugal nature and cautious approach build wealth slowly but surely. Your $1M comes through disciplined habits and compound growth.",
-    'Fox': "You're adaptable and opportunistic, spotting chances others miss. Your strategic agility helps you navigate changing markets. Your $1M path involves clever pivots and calculated moves.",
-    'Peacock': "You value aesthetics, status, and social connections. Your wealth-building involves lifestyle and image-conscious decisions. Your $1M path leverages your social influence and brand.",
-    'Elephant': "You focus on legacy and long-term impact. Your steady, disciplined approach values generosity alongside wealth. Your $1M path involves building something lasting for future generations.",
-    'Bear': "You're grounded and protective, building wealth for security. Your reliable nature creates steady progress. Your $1M path involves consistent, protective strategies that safeguard your family.",
-    'Eagle': "You're a visionary who sees the big picture and strategic opportunities. Your bold leadership and future focus drive ambitious goals. Your $1M path soars through high-level strategic moves.",
-    'Antelope': "You're agile and perceptive, quickly adapting to opportunities. Your graceful approach balances multiple strategies. Your $1M path involves nimble moves and staying alert to market changes."
+    'Fox': "You're adaptable and opportunistic, spotting chances others miss. Your strategic agility helps you navigate changing markets. Your path to financial freedom involves clever pivots and calculated moves.",
+    'Peacock': "You value aesthetics, status, and social connections. Your wealth-building involves lifestyle and image-conscious decisions. Your path to financial freedom leverages your social influence and brand.",
+    'Elephant': "You focus on legacy and long-term impact. Your steady, disciplined approach values generosity alongside wealth. Your path to financial freedom involves building something lasting for future generations.",
+    'Bear': "You're grounded and protective, building wealth for security. Your reliable nature creates steady progress. Your path to financial freedom involves consistent, protective strategies that safeguard your family.",
+    'Eagle': "You're a visionary who sees the big picture and strategic opportunities. Your bold leadership and future focus drive ambitious goals. Your path to financial freedom soars through high-level strategic moves.",
+    'Antelope': "You're agile and perceptive, quickly adapting to opportunities. Your graceful approach balances multiple strategies. Your path to financial freedom involves nimble moves and staying alert to market changes."
   };
 
   return {
